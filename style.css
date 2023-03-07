@@ -1,0 +1,39 @@
+:root {
+    --back: #19181F;
+    --details: #8b5cf6;
+
+    --fonte-principal: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    box-sizing: border-box;
+}
+body{
+    text-align: justify;
+    color: #fff;
+    background: var(--back);
+    line-height: 45px;
+}
+
+footer {
+    margin-top: 100px;
+    background: var(--details);
+    padding: 30px;
+}
+
+footer > p{
+    text-align: center;
+}
+
+@media (max-width: 1329px){
+    #last{
+        font-size: 25px;
+    }
+
+    main{
+        margin: 0 25px;
+    }
+}
